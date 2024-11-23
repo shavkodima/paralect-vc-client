@@ -95,7 +95,7 @@ const FormJob = ({ title, formStateEdit = {} }: PropsTypeFromJob) => {
         </Field>
         <Field label="Заметка">
           <Textarea
-            placeholder="Введите заметку"
+            placeholder="Введите заметку..."
             {...register('desc')}
           />
         </Field>
