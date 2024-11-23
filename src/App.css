@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400 !important;
+  font-style: normal;
+}
+
+.chakra-table__columnHeader {
+  color: #fff !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: #fff500;
+  border-color: #fff500;
+}
