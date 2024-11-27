@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const ApiInstance = () => {
   const instance = axios.create({
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://ym27ng-3000.csb.app/',
   });
 
   return instance;
